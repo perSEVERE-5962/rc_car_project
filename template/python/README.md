@@ -12,4 +12,5 @@ Templates:
 3. Then, in your main program file you can import your class
 
 For example, if your sensor file is called hcsr04.py and the class is called Hcsr04 you would add the following to your main program file
+
 `from hcsr04 import Hcsr04`
