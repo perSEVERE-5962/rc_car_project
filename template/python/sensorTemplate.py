@@ -1,15 +1,3 @@
-# Make an empty file called __init__.py in the same directory as the sensor library file that you are creating
-#     You could also copy the one from template/python folder
-#
-# That will signify to Python that it's "ok to import from this directory"
-#
-# Then, in your main program file you can import your class
-#     For example, if your file is called hcsr04.py and the class is called Hcsr04
-#     you would add the following to your main program file
-#         from hcsr04 import Hcsr04
-#
-
-
 # import any of the required libraries for the sensor
 
 # include the networktablesinstance
@@ -17,8 +5,6 @@ from networktables import NetworkTablesInstance
 
 # create the class
 # see https://www.programiz.com/python-programming/class for a tutorial
-
-
 class SensorTemplate:
     "Put a description of your class here in quotes"
 
