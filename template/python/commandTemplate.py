@@ -40,7 +40,7 @@ class CommandTemplate(Thread):
     # Override the run() function of Thread class
     def run(self):
         while self._running == True:
-            # TODO: add your sensor logic here
+            # TODO: add your command logic here
 
             self.execute()
 
