@@ -39,7 +39,7 @@ class CommandTemplate(Thread):
 
     # Override the run() function of Thread class
     def run(self):
-        while self._running == True:
+        while isFinished == True:
             # TODO: add your command logic here
 
             self.execute()
