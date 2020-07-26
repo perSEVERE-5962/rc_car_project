@@ -35,11 +35,11 @@ class CommandTemplate(Thread):
 
     # Returns true when the command should end
     def isFinished(self):
-        return self._running
+        return self._running == False
 
     # Override the run() function of Thread class
     def run(self):
-        while isFinished == True:
+        while isFinished == False:
             # TODO: add your command logic here
 
             self.execute()
