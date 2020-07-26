@@ -39,10 +39,13 @@ class CommandTemplate(Thread):
 
     # Override the run() function of Thread class
     def run(self):
-        while isFinished == False:
+        while self.isFinished() == False:
             # TODO: add your command logic here
 
             self.execute()
+            
+'''
+The following is an example of how to use this class from your main script
 
 def main():
    # Create an object of Thread
@@ -54,3 +57,4 @@ def main():
 
 if __name__ == '__main__':
    main()
+'''

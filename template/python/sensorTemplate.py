@@ -54,6 +54,9 @@ class SensorTemplate(Thread):
             sensor_value.setValue(sensor_value)
             sensor_value_2.setValue(sensor_value_2)
 
+'''
+The following is an example of how to use this class from your main script
+
 def main():
    # Create an object of Thread
    th = SensorTemplate()
@@ -64,3 +67,4 @@ def main():
 
 if __name__ == '__main__':
    main()
+'''
